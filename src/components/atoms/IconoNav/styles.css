@@ -1,0 +1,51 @@
+.ig{
+  background: url('../../assets/icons/ig.svg');
+  display: block;
+  text-indent: -9999px;
+  cursor: pointer;
+  width: 1.7rem;
+  height: 1.7rem;
+  background-size: 1.7rem 1.7rem;
+  border: none;
+}
+
+.in{
+  background: url('../../assets/icons/linkedin.svg');
+  display: block;
+  text-indent: -9999px;
+  cursor: pointer;
+  width: 1.7rem;
+  height: 1.7rem;
+  background-size: 1.7rem 1.7rem;
+}
+
+.tw{
+  background: url('../../assets/icons/twitter.svg');
+  display: block;
+  text-indent: -9999px;
+  cursor: pointer;
+  width: 1.7rem;
+  height: 1.7rem;
+  background-size: 1.7rem 1.7rem;
+}
+
+.fb{
+  background: url('../../assets/icons/facebook.svg');
+  display: block;
+  text-indent: -9999px;
+  cursor: pointer;
+  width: 1.7rem;
+  height: 1.7rem;
+  background-size: 1.7rem 1.7rem;
+}
+
+.tg{
+  background: url('../../assets/icons/telegram.svg');
+  display: block;
+  text-indent: -9999px;
+  cursor: pointer;
+  width: 1.7rem;
+  height: 1.7rem;
+  background-size: 1.7rem 1.7rem;
+}
+
