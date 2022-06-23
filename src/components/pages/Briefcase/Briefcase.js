@@ -5,7 +5,7 @@ import './briefcaseStyles.css'
 const Briefcase = () => {
 
     return (
-        <div className="d-flex briefcase p-5">
+        <div id='#Briefcase' className="d-flex briefcase p-5">
             <div class="container">
                 <div class="display-3 titulo my-4">Briefcase</div>
                 <div class="row g-2">

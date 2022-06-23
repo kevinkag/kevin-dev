@@ -8,7 +8,7 @@ function App() {
       <React.Fragment>
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/kevin-dev" element={<Home />} />
           </Routes>
         </BrowserRouter>
     </React.Fragment>
