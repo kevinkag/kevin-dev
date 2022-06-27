@@ -2,10 +2,10 @@ import React from 'react'
 
 const BriefcaseCard = () => {
     return (
-        <div class="col">
+        <div class="col my-4 d-flex justify-content-center">
             <div class="card p-4">
                 <span class="fab fa-envira mt-3">
-                    <img className='image-card' src={require('../../assets/imagen.png')}/>
+                    <img className='image-card' src={require('../../assets/imagen.png')} alt="card"/>
                 </span>
                 <p class="h4 pt-4">Garden Care</p>
                 <p class="description">

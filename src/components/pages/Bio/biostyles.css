@@ -1,10 +1,16 @@
 .bio {
-    height: 100vh;
+    height: auto;
     background-color: #141414;
 }
 
 .imagen {
     background-color: #141414;
+    width: calc(20em + 1vw);
+    height: calc(15em + 1vw);
+}
+
+.text-responsive {
+    font-size: calc(0.8rem + 1vh);
 }
 
 .texto-blanco {

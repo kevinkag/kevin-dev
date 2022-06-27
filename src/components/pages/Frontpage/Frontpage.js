@@ -8,7 +8,7 @@ import api from '../../../services/api'
 const Frontpage = () => {
   const navigation = api.navigation
   return (
-    <div id='#Frontpage' className='home container-fluid p-1'>
+    <div id='#Frontpage' className='home p-1'>
       <NavBar item={navigation}/>
       <HomeList/>
     </div>

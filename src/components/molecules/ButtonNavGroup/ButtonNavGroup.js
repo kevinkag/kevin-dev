@@ -2,20 +2,15 @@ import React from 'react'
 
 const ButtonNavGroup = ({ item }) => {
   return (
-    <div className='row border'>
-      {
-        item.map((item, key) => (
-          <div className='col border' key={key} style={{cursor: 'pointer'}}>
-            <a
-              type='button'
-              className='text-decoration-none text-light px-4 py-1'
-              href={`#${item.name}`}>
-              {item.name}
-            </a>
-          </div>
-        ))
-      }
-    </div>
+    item.map((item, key) => (
+      <a
+        type='button'
+        className='nav-item nav-link text-decoration-none fs-5 text-light px-4 py-1'
+        href={`#${item.name}`}>
+        {item.name}
+      </a>
+
+    ))
     // <div className="btn-group" role="group" aria-label="Basic outlined example">
     //   <nav>
     //     {
