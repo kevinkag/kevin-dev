@@ -1,13 +1,14 @@
 import React from 'react'
 import TitleNavBar from '../../atoms/TitleNavBar/TitleNavBar'
 import ButtonNavGroup from '../../molecules/ButtonNavGroup/ButtonNavGroup'
+import './styles.css'
 
 const NavBar = ({ item }) => {
   return (
-    <div className="mt-3 ">
-      <nav className="navbar navbar-expand-lg navbar-dark position-fixed d-flex w-100">
+    <div className="m-3">
+      <nav className="navbar container-head p-3 start-0 top-0 navbar-expand-lg navbar-dark position-fixed d-flex w-100">
         <div className="container">
-          <TitleNavBar>KEVIN CASTRO.</TitleNavBar>
+          <TitleNavBar>KEVIN MARTÍNEZ.</TitleNavBar>
           <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
           </button>

@@ -15,30 +15,48 @@ const api = {
     ],
     buttons_bar: [
         {
-            "name":"ig",
-            "link":"https://instagram.com"
+            "name": "ig",
+            "link": "https://instagram.com/kevincastromm"
         },
         {
-            "name":"fb",
-            "link":"https://facebook.com"
+            "name": "fb",
+            "link": "https://facebook.com"
         },
         {
-            "name":"in",
-            "link":"https://linkedin.com"
+            "name": "in",
+            "link": "https://www.linkedin.com/in/kevin-martinez-538a99222/"
         },
         {
-            "name":"tw",
-            "link":"https://twitter.com"
+            "name": "tw",
+            "link": "https://twitter.com/KevinMa61701437"
         },
         {
-            "name":"tg",
-            "link":"https://telegram.com"
+            "name": "tg",
+            "link": "https://telegram.com"
         }
     ],
-    "bio":[
+    bio: {
+        info: "Soy Kevin, tengo 21 años resido en Caracas, Venezuela. Soy desarrollador web y mobile, " +
+            "me incorporé en el mundo de la programacion hace " +
+            "apróximadamente 4 años, empecé con PHP, luego tuve una pequeña experiencia en " +
+            "el desarrollo de applicaciones mobile con Android Studio, posteriormente me interesé en JavaScript " +
+            "por lado del servidor, utilicé el entorno NodeJS y ExpressJS, me di cuenta que me gustaba" +
+            "más el front-end, y opté por utilizar en un periodo corto AngularJS hasta que conocí la maravillosa libreria " +
+            "que actualmente domino llamada ReactJS."
+    },
+    briefcase: [
         {
-            "info":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."
-        }
+            name: 'GitHub Users',
+            img_url: 'portafolio-users.png',
+            description: 'App de usuarios de github en ReactJS, utilicé redux, bootstrap, axios, metodología atomic design.',
+            url: 'https://kevinkag.github.io/users-github/',
+        },
+        {
+            name: 'Pokedex',
+            img_url: 'portafolio-poke.png',
+            description: 'Enciclopedia electrónica de pókemons en ReactJS, utilicé redux, bootstrap, axios, metodología atomic design para el manejo de componentes.',
+            url: 'https://kevinkag.github.io/poke-app/'
+        },
     ]
 }
 

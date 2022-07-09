@@ -7,7 +7,7 @@ import Briefcase from "../Briefcase/Briefcase"
 
 const Home = () => {
   
-  const [page, seTpage] = useState('')
+  
   const float_bar = api.buttons_bar
 
   return(
