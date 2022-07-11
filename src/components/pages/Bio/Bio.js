@@ -19,7 +19,7 @@ const Bio = () => {
         </div>
         <div class="row">
           <div class="col-md-4 offset-md-2 py-4">
-            <img alt="img bio" class="imagen img-thumbnail border-0" src={require('../../assets/imagen.png')} />
+            <img alt="img bio" class="imagen img-thumbnail border-0" src={require('../../assets/imagen.jpeg')} />
           </div>
           <div class="col-md-4 fw-light py-5 px-5 texto-blanco " style={{ fontSize: '0.75rem' }}>
             {bio}

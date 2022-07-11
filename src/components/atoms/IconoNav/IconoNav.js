@@ -2,7 +2,6 @@ import React from 'react'
 import './styles.css'
 
 const IconoNav = ({ items }) => {
-  console.log(items)
   return (
     items.map((item, k) => (
       <div className='' key={k}>

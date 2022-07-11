@@ -19,8 +19,8 @@ const api = {
             "link": "https://instagram.com/kevincastromm"
         },
         {
-            "name": "fb",
-            "link": "https://facebook.com"
+            "name": "gh",
+            "link": "https://github.com/kevinkag"
         },
         {
             "name": "in",

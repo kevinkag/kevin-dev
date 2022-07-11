@@ -49,3 +49,13 @@
   background-size: 1.7rem 1.7rem;
 }
 
+.gh{
+  background: url('../../assets/icons/github.svg');
+  display: block;
+  text-indent: -9999px;
+  cursor: pointer;
+  width: 1.7rem;
+  height: 1.7rem;
+  background-size: 1.7rem 1.7rem;
+}
+
